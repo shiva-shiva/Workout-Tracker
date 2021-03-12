@@ -13,9 +13,8 @@ The Fitness Tracker is an app which allows the user to add exercises to a databa
 The app interacts with a database containing "Workout" objects, and each Workout contains an array of "Exercises." The home page of the app allows the user to choose either to begin a new Workout or continue with the most recent Workout in the database.<h4>Click [here](https://quiet-fjord-49464.herokuapp.com) for deployed application.</h4>
 
 ## ✨Demo
-label 1 | label 2
---- | ---
-![Demo](./public/images/Fitness.png "title-1") | ![Demo](./public/images/Fitness-Tracker.png "title-2")
+
+![Demo](./public/images/Fitness.png "title-1")  ![Demo](./public/images/Fitness-Tracker.png )
 
 ![Demo](./public/images/Workout-Dashboard.png)
 
