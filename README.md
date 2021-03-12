@@ -30,7 +30,7 @@ The app interacts with a database containing "Workout" objects, and each Workout
 
     2- Run npm install to install dependencies required for this project.
 
-    3-Run node server.js to start the application.
+    3- Run node server.js to start the application.
 
 ## 💻usage
 *Instructions and examples for use:*</br> 
