@@ -14,8 +14,7 @@ The app interacts with a database containing "Workout" objects, and each Workout
 
 ## ✨Demo
 
-![Demo](./public/images/Fitness.png)
-![Demo](./public/images/Fitness-Tracker.png)
+![Demo](./public/images/Fitness.png)![Demo](./public/images/Fitness-Tracker.png)
 ![Demo](./public/images/Workout-Dashboard.png)
 
  ## Table of Contents
@@ -27,15 +26,22 @@ The app interacts with a database containing "Workout" objects, and each Workout
 ## Installation
 *Steps required to install project and how to get the development environment running:*
 
-    1-Download or clone this repository into your local computer.
-    2-npm init   
+    1- Clone this repository to your local machine.
+
+    2- Run npm install to install dependencies required for this project.
+
+    3-Run node server.js to start the application.
 
 ## 💻usage
 *Instructions and examples for use:*</br> 
 
- Application will be invoked by using the following command:
+    Create a new workout or add to an existing workout.
 
-    node server.js
+    Choose workout type from resistance or cardio.
+
+    Fill out exercise details and add it to ongoing workout or mark it complete.
+
+    View your progress over time on the dashboard and current stats on the homepage.
     
 ## Features
 

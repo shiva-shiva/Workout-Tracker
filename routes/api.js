@@ -5,14 +5,12 @@ const router = require("express").Router();
 router.get("/api/workouts", (req, res) => {
 
     db.Workout.find({}).then(dbWorkout => {
-        console.log("ALL WORKOUTS" +  db.Workout.find({}));
         dbWorkout.forEach(workout => {
             var total = 0;
             workout.exercises.forEach(e => {
                 total += e.duration;
             });
             workout.totalDuration = total;
-
         });
 
         res.json(dbWorkout);
@@ -53,9 +51,6 @@ router.post("/api/workouts", ({ body }, res) => {
 router.get("/api/workouts/range", (req, res) => {
 
     db.Workout.find({}).then(dbWorkout => {
-        console.log("ALL WORKOUTS");
-        console.log(dbWorkout);
-
         res.json(dbWorkout);
     }).catch(err => {
         res.json(err);
