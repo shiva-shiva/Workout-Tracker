@@ -28,8 +28,7 @@ The app interacts with a database containing "Workout" objects, and each Workout
 *Steps required to install project and how to get the development environment running:*
 
     1-Download or clone this repository into your local computer.
-    2-npm init
-    
+    2-npm init   
 
 ## 💻usage
 *Instructions and examples for use:*</br> 
@@ -44,6 +43,7 @@ The app interacts with a database containing "Workout" objects, and each Workout
     JavaScript library 
     Express - Node Framework 
     Heroku - Used to deploy application
+    MongoDB
 
 ## 📝License
 MIT License<br/>
