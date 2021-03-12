@@ -43,7 +43,7 @@ The app interacts with a database containing "Workout" objects, and each Workout
     JavaScript library 
     Express - Node Framework 
     Heroku - Used to deploy application
-    MongoDB
+    MongoDB Atlas
 
 ## 📝License
 MIT License<br/>
